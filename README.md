@@ -8,3 +8,6 @@ Pipeline conists of 4 elements - Data Acquisition, Data Processing, Data Analysi
 
 # Data Acquisition
 The first element of the pipeline is Data Acquisition. All the data was obtained from the IMDb website, the data involved Top 1000 films based on popularity. As you are aware Data Acquisition requires many procedures to extract data, therefore I firstly used the following tools Requests to pull out the data from my desired chosen repository (Top 1000 films based on popularity). Secondly, I used the Beautiful Soup library to parse and extract the information from IMDb's repository. Later on, when I tested out the request I got a response of 200 which meant that my request was successful.
+
+![2](https://user-images.githubusercontent.com/78740991/214917950-b72b3813-7d30-48ef-b130-935f61ac7131.png)
+
