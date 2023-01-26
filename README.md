@@ -19,19 +19,6 @@ I started to web scrape by extracting the films based on names, placement, terms
 
 ![3](https://user-images.githubusercontent.com/78740991/214918744-465bb31c-eaec-49f8-b0c5-c31cc62b642e.png)
 
-All the results which have been extracted.
-
-![4](https://user-images.githubusercontent.com/78740991/214920456-8d084efb-a62c-465f-8e4b-d458848bda56.png)
-![5](https://user-images.githubusercontent.com/78740991/214920476-1b3f59f0-2449-4c0e-bae4-a1bba36748ac.png)
-![6](https://user-images.githubusercontent.com/78740991/214920496-b7b21412-cde7-4fab-a9c5-414d85aa8b86.png)
-![7](https://user-images.githubusercontent.com/78740991/214920509-69b932f0-33d9-484e-bcb7-bfc314581dbb.png)
-![8](https://user-images.githubusercontent.com/78740991/214920535-d40180cf-aa46-4f94-9f49-d0d0dae36f13.png)
-![9](https://user-images.githubusercontent.com/78740991/214920554-1d37d7ed-a26b-4350-8620-4531069ce389.png)
-![10](https://user-images.githubusercontent.com/78740991/214920575-1bec36b8-aad3-41f5-a5e9-97d120016373.png)
-![11](https://user-images.githubusercontent.com/78740991/214920596-78b6e2ad-2d72-4e9d-b37b-d8f4888d3403.png)
-![12](https://user-images.githubusercontent.com/78740991/214920626-16455bba-0f7e-4e07-a304-6db70e8402ca.png)
-![13](https://user-images.githubusercontent.com/78740991/214920644-f74c8376-ad0c-4d93-836a-9cb45c4d6bfb.png)
-
 Following a search, the IMDb URL is supplied, using the process as the group and number of items to be scraped as parameters which were all passed into the pandas data-frame to represent the film data in the format of columns and rows. All that was being done was information extraction from every webpage using a loop. The webpage (URL) that returned the soup element receives the resulting URL as a parameter. The soup element's data is then stored and returned in a list of a data-frames. As you can see, I used “else np.NaN” so that all the values which are missing can be replaced for not a number (NaN).
 
 ![14](https://user-images.githubusercontent.com/78740991/214919045-71cd7a37-b4d5-4367-b4d0-b704178bbf54.png)
@@ -105,5 +92,3 @@ I used the following 1. SQLAlchemy for facilitating the communication between th
 
 ![39](https://user-images.githubusercontent.com/78740991/214964196-2ff4bf76-8e38-4b8a-948e-75b124940914.png)
 ![41](https://user-images.githubusercontent.com/78740991/214964244-778df5d8-3bae-4177-ae26-a7e1c91a310f.png)
-
-
