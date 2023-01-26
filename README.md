@@ -8,7 +8,7 @@ Pipeline conists of 4 elements - Data Acquisition, Data Processing, Data Analysi
 
 # Imported Libraries/Tools
 
-![1](https://user-images.githubusercontent.com/78740991/214922221-f0c7df6b-5911-4ef1-a5f2-6d0240959e98.png)
+![1](https://user-images.githubusercontent.com/78740991/214964302-9d25e21f-d2b0-44c6-9cfb-db13b505e262.png)
 
 # Data Acquisition
 The first element of the pipeline is Data Acquisition. All the data was obtained from the IMDb website, the data involved Top 1000 films based on popularity. As you are aware Data Acquisition requires many procedures to extract data, therefore I firstly used the following tools Requests to pull out the data from my desired chosen repository (Top 1000 films based on popularity). Secondly, I used the Beautiful Soup library to parse and extract the information from IMDb's repository. Later on, when I tested out the request I got a response of 200 which meant that my request was successful.
@@ -95,3 +95,15 @@ Method for gaining and displaying the Top 3 categories with the highest votes on
 Used the seaborn library with matplotlib for displaying the correlation between grading, score, votes and gross. This was utilised to provide better visualizations.
 
 ![37](https://user-images.githubusercontent.com/78740991/214921998-f444ca0a-ac63-4a08-9d97-f880c7d31bd5.png)
+
+# Data Analysis
+Finally, the last element of the pipeline is Data Migration. In this phase, I loaded my main IMDb data-frame into the MySQL database, this is where I firstly created a new database “filmschema” and initially loaded the main data-frame in the form of a table “filmsrec”.
+
+![40](https://user-images.githubusercontent.com/78740991/214964114-274cdc59-1d9b-4ca2-b360-91c53698181f.png)
+
+I used the following 1. SQLAlchemy for facilitating the communication between the Python language and database, 2. MySQL Connector for providing connectivity to MySQL database server, and 3. PyMySQL for connecting to the MySQL database server using Python.
+
+![39](https://user-images.githubusercontent.com/78740991/214964196-2ff4bf76-8e38-4b8a-948e-75b124940914.png)
+![41](https://user-images.githubusercontent.com/78740991/214964244-778df5d8-3bae-4177-ae26-a7e1c91a310f.png)
+
+
