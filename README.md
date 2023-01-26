@@ -6,9 +6,7 @@ In this project, I will look to utilise genuine trending data from the IMDb webs
 # Pipeline Design
 Pipeline conists of 4 elements - Data Acquisition, Data Processing, Data Analysis & Data Migration.
 
-# Imported Libraries/Tools
-
-![1](https://user-images.githubusercontent.com/78740991/214964302-9d25e21f-d2b0-44c6-9cfb-db13b505e262.png)
+![42](https://user-images.githubusercontent.com/78740991/214965350-0410cf50-dba0-46f4-a203-5133c94b1919.png)
 
 # Data Acquisition
 The first element of the pipeline is Data Acquisition. All the data was obtained from the IMDb website, the data involved Top 1000 films based on popularity. As you are aware Data Acquisition requires many procedures to extract data, therefore I firstly used the following tools Requests to pull out the data from my desired chosen repository (Top 1000 films based on popularity). Secondly, I used the Beautiful Soup library to parse and extract the information from IMDb's repository. Later on, when I tested out the request I got a response of 200 which meant that my request was successful.
@@ -83,7 +81,7 @@ Used the seaborn library with matplotlib for displaying the correlation between 
 
 ![37](https://user-images.githubusercontent.com/78740991/214921998-f444ca0a-ac63-4a08-9d97-f880c7d31bd5.png)
 
-# Data Analysis
+# Data Migration
 Finally, the last element of the pipeline is Data Migration. In this phase, I loaded my main IMDb data-frame into the MySQL database, this is where I firstly created a new database “filmschema” and initially loaded the main data-frame in the form of a table “filmsrec”.
 
 ![40](https://user-images.githubusercontent.com/78740991/214964114-274cdc59-1d9b-4ca2-b360-91c53698181f.png)
