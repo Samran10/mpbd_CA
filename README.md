@@ -3,38 +3,8 @@ As you know that the film industry had emerged at the start of the 19th century 
 
 In this project, I will look to utilise genuine trending data from the IMDb website which technically stores information of films using an online database. During the course of this project, my objective will be to implement a Data Acquisition & Pre-processing Pipeline for the film data. Through this I will look to process data of the “Top 1000” films based on their popularity from IMDb.
 
-# OBJECTIVE
-o	Obtain data of the most popular 1000 films\
-o	Collect data of directors with the longest film (Top 5)\
-o	Fetch data of directors with the highest film score (Top 10)\
-o	Acquire data of directors with the highest film rating (Top 10)\
-o	Collect data of directors with the highest film votes (Top 5)\
-o	Fetch data of directors with the highest film gross (Top 15)\
-o	Acquire data of the total amount of films along with the years which they released\
-o	Collect data of the average rating, score, votes  & gross based on the film total\
-o	Acquire data of film categories which has the most votes (Top 3)\
-o	Fetch the correlation data of films rating, score, votes & gross\
-o	Visualize all the collected data\
-o	Load data into a database
+# Pipeline Design
+Pipeline conists of 4 elements - Data Acquisition, Data Processing, Data Analysis & Data Migration.
 
-# REQUIREMENTS
-o	Data to be acquired through an API\
-o	Data to be extracted, normalised & stored into a data-frame\
-o	Data to be cleaned (get rid of the missing values)\
-o	Data to be visualised (Matplotlib & Seaborn)\
-o	Data to be connected to a database
-
-# TECHNICAL SPECIFICATION
-|Imported Tools|
-| -------------|
-	Pandas
-	BeautifulSoup
-	Numpy
-	Requests
-	Seaborn
-	Matplotlib
-	SQLite
-	Re
-
-
-
+# Data Acquisition
+The first element of the pipeline is Data Acquisition. All the data was obtained from the IMDb website, the data involved Top 1000 films based on popularity. As you are aware Data Acquisition requires many procedures to extract data, therefore I firstly used the following tools Requests to pull out the data from my desired chosen repository (Top 1000 films based on popularity). Secondly, I used the Beautiful Soup library to parse and extract the information from IMDb's repository. Later on, when I tested out the request I got a response of 200 which meant that my request was successful.
