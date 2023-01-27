@@ -1,3 +1,17 @@
+# TECHNICAL SPECIFICATION
+|Imported Tools|
+| -------------|
+	Pandas
+	BeautifulSoup
+	Numpy
+	Requests
+	Seaborn
+	Matplotlib
+	Re
+  SQLAlchemy
+  MySQL Connector
+  PyMySQL
+  
 # Pipeline Design
 My chosen pipeline consists of 4 elements - Data Acquisition, Data Processing, Data Analysis & Data Migration.
 
